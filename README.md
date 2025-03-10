@@ -24,7 +24,7 @@ npm install
 5. Corre el servidor en tu red local!
 ```sh
 export PORT=8080
-node app.js -- --host --port $PORT
+PORT=$PORT node app.js -- --host --port $PORT
 ```
 
 ### Windows
