@@ -8,7 +8,7 @@ Servidor web simple para la práctica de Administración de redes.
 1. Descarga `node.js` de la [página oficial](https://nodejs.org/es).
 2. Descarga este proyecto en tu computadora usando git o descargando el archivo con extensión `.zip` en este sitio.
 ```sh
-git clone 
+git clone https://github.com/RamMaths/practicaRedes.git
 ```
 3. Comprueba que tienes `node.js` instalado
 ```sh
