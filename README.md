@@ -5,6 +5,8 @@ Servidor web simple para la práctica de Administración de redes.
 
 ## Pasos para correr el servidor en tu red local
 
+### Linux / MacOS
+
 1. Descarga `node.js` de la [página oficial](https://nodejs.org/es).
 2. Descarga este proyecto en tu computadora usando git o descargando el archivo con extensión `.zip` en este sitio.
 ```sh
@@ -24,3 +26,5 @@ npm install
 export PORT=8080
 node app.js -- --host --port $PORT
 ```
+
+### Windows
