@@ -70,7 +70,17 @@ npm install
 ```
 
 5. Corre el servidor en tu red local!
+
+- Si usas `Command Prompt`
+
 ```sh
 set PORT=8080
-node app.js
+node app.js -- --host --port %PORT%
+```
+
+- Si usas `Powershell`
+
+```sh
+$env:PORT = 8080
+node app.js -- --host --port $env:PORT
 ```
